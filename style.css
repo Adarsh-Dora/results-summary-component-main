@@ -1,0 +1,153 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  /* line-height: 1; */
+  font-weight: 500;
+}
+main {
+  /* margin: 0 auto; */
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total {
+  display: flex;
+  
+  padding: 96px 96px;
+  background-color: hsl(221, 100%, 96%);
+  box-shadow: 64px 64px 64px rgba(0, 0, 0, 0.06);
+
+}
+.left {
+  text-align: center;
+  width: 250px;
+  color: white;
+  padding: 24px 24px;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 15px;
+}
+.right {
+  width: 250px;
+  padding: 24px 24px;
+  /* box-shadow: 8px 8px 12px rgb(0, 0, 0, 0.1); */
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+.top {
+  margin-bottom: 64px;
+}
+.right-top {
+  margin-bottom: 32px;
+}
+.number {
+  margin-left: calc((100% - 150px)/2);
+  height:150px;
+  width: 150px;;
+  margin-bottom: 64px;
+  background-color:   hsla(241, 81%, 54%, 0.314) ;
+  border-radius: 100px;
+  
+
+  /* display: flex;
+  flex-direction: column; */
+}
+.first-number {
+  font-size: 48px;
+  font-weight: 700;
+}
+.second-number {
+  transform: translateY(-16px);
+}
+.middle {
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.button {
+  text-align: center;
+}
+.btn {
+  padding: 12px 32px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  border-radius: 10px;
+}
+.btn:hover,
+.btn:active {
+  cursor: pointer;
+  color: hsl(224, 30%, 27%) ;
+  background-color: white;
+
+
+}
+
+.great {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+.end {
+  line-height: 1.5;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2px;
+}
+.flex-reaction {
+  /* padding: 0 2px; */
+  background-color:  hsla(0, 100%, 67%, 0.107);
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+.flex-memory {
+  /* padding: 0 2px; */
+  background-color:  hsla(39, 100%, 56%, 0.232);
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+
+.flex-verbal {
+  /* padding: 0 2px; */
+  background-color:  hsla(166, 100%, 37%, 0.131);
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.flex-visual {
+  /* padding: 0 2px; */
+  background-color:  hsla(234, 85%, 45%, 0.162);
+  border-radius: 10px;
+}
+  
+.right-top{
+  font-weight: 700;
+}
+
+.reaction {
+  color: hsl(0, 100%, 67%);
+}
+.memory {
+  color: hsla(39, 100%, 56%, 0.944);
+}
+.verbal {
+  color: hsl(166, 100%, 37%);
+}
+.visual {
+  hsl(234, 85%, 45%)
+}
+.flex p{
+  margin-right: 8px;
+}

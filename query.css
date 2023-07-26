@@ -1,0 +1,37 @@
+@media (max-width: 765px) {
+  .total {
+    flex-direction: column;
+  }
+  .top {
+    margin-bottom: 0;
+  }
+  .number {
+    margin-bottom: 0;
+  }
+  .great {
+    margin-bottom: 0;
+  }
+  .left {
+    width: 350px;
+    padding: 12px 12px;
+    border-radius: 20px;
+  }
+  .right {
+    width: 350px;
+    padding: 12px 12px;
+    box-shadow: 0 0 0;
+    border-radius: none;
+  }
+  .total {
+    background: none;
+    padding: 0px 0px;
+    box-shadow: none;
+  }
+  .btn {
+    padding: 24px 48px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 10px;
+    font-size: 24px;
+  }
+}
